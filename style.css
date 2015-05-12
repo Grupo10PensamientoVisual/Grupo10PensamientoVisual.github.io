@@ -1,5 +1,7 @@
+@import "compass/css3";
+
 body{
-	background-color: white;
+	background-color: black;
 	color: #ffffff;
 	display: table;
 }
@@ -18,10 +20,10 @@ body{
 }
 .circulo{
 	font-size:30px;
-	color:black;
+	color:white;
 	text-align: center;
 	font-family:sans-serif;
-	margin-top: 150px;
+	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -29,44 +31,39 @@ body{
 .circulo2{
 	height: 100px;
 	width: 100px;
-	background-color: #4444FF;
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
 	margin-top: 100px;
-	display: inline-block;
-	margin-right: 40px;
-	
+	display:inline-block;
+	margin-right: 3%;
 }
 .circulo3{
 	height: 100px;
 	width: 100px;
-	background-color: #4444FF;
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
 	margin-top: 100px;
-	display: inline-block;
-	margin-right: 40px;
+	display:inline-block;
+	margin-right: 3%;
 }
 .circulo4{
 	height: 100px;
 	width: 100px;
-	background-color: #4444FF;
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
 	margin-top: 100px;
-	display: inline-block;
-	margin-right: 40px;
+	display:inline-block;
+	margin-right: 3%;
 }
 .circulo5{
 	height: 100px;
 	width: 100px;
-	background-color: #4444FF;
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
@@ -74,4 +71,88 @@ body{
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.titulo{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.container1texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-left: 55px;
+}
+.container2texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-left: 60px;
+
+}
+.container3texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-right: 60px;
+}
+.final{
+	color:white;
+	font-family:sans-serif;
+	font-size:20px;
+	text-align: center;
+	margin-top: 20px;
+}
+#hombre{
+	background-color: #6A0000;
+}
+#mujer{
+	background-color: #6A0000;
+}
+#hora1{
+		background-color: #BFB52E;
+}
+#hora2{
+		background-color: #BFB52E;
+}
+#hora3{
+		background-color: #BFB52E;
+}
+#hora4{
+		background-color: #BFB52E;
+}
+#alcohol{
+	background-color: #4E7F16;
+}
+#deficiencias{
+		background-color: #4E7F16;
+}
+#desobediencia{
+		background-color: #4E7F16;
+}
+#drogas{
+		background-color: #4E7F16;
+}
+#fallas{
+		background-color: #4E7F16;
+}
+#imprudenciac{
+		background-color: #4E7F16;
+}
+#imprudenciap{
+		background-color: #4E7F16;
+}
+#velocidad{
+		background-color: #4E7F16;
+}
+#perdida{
+		background-color: #4E7F16;
 }

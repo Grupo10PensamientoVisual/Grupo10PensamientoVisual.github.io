@@ -8,55 +8,68 @@
     <script src="js/prefixfree.min.js"></script>
 </head>
 <body>
-	<label class='titulo' id='titulo'>Víctimas en accidentes automovilísticos</label>
+	<label class='titulo' id='titulo'>
+	  <div align="center">Número de víctimas en accidentes automovilísticos en Chile</div>
+	</label>
 	<div class='container'>
 		<div class='circulo' id='año' data-count='2014'>2011</div>
 	</div>
 	<div id='container1'>
 		<div class='circulo3' id='hombre' data-count='4965'>0</div>
-		<label class='conteiner1texto' id='hombre'>Hombres</label>
 		<div class='circulo4' id='mujer' data-count='1384'>0</div>
-		<label class='conteiner1texto' id='mujer'>Mujeres</label>
+		<br>
+		<label class='container1texto'>Hombres</label>
+		<label class='container1texto'>Mujeres</label>
 	</div>
 	<br>
 	<div id='container2'>
 		<div class='circulo3' id="hora1" data-count="1330">0</div><!-- 1-6hrs-->
-		<label class='conteiner2texto' id='hora1'>1-6Hrs</label>
-		<div class='circulo2' id="hora2" data-count="1398">0</div>
-		<label class='conteiner2texto' id='hora2'>7-12Hrs</label><!-- 7-12hrs-->
-		<div class='circulo2' id="hora3" data-count="1524">0</div>
-		<label class='conteiner2texto' id='hora3'>13-18Hrs</label><!-- 13-18hrs-->
+		<div class='circulo2' id="hora2" data-count="1398">0</div><!-- 7-12hrs-->
+		<div class='circulo2' id="hora3" data-count="1524">0</div><!-- 13-18hrs-->
 		<div class='circulo4' id="hora4" data-count="2137">0</div>
-		<label class='conteiner2texto' id='hora4'>19-00Hrs</label><!-- 19-00hrs-->
+		<br>
+		<label class='container2texto'>1-6Hrs</label>
+		<label class='container2texto'>7-12Hrs</label>
+		<label class='container2texto'>13-18Hrs</label>
+		<label class='container2texto'>19-00Hrs</label><!-- 19-00hrs-->
 	</div>
 	<br>
 	<div id='container3'>
-	    <div class='circulo2' id="alcohol" data-count="643">0</div>
-	    <label class='conteiner3texto' id='alcohol'>Alcohol</label><!-- alcohol-->
+	    <div class='circulo3' id="alcohol" data-count="643">0</div>
         <div class='circulo2' id="deficiencias" data-count="14">0</div>
-        <label class='conteiner3texto' id='deficiencias'>Deficiencias viales</label><!-- deficiencias viales-->
         <div class='circulo2' id="desobediencia" data-count="316">0</div>
-        <label class='conteiner3texto' id='desobediencia'>Desobediencia a señalización</label><!-- desobediencia a señalizacion-->
         <div class='circulo2' id="drogas" data-count="68">0</div>
-        <label class='conteiner3texto' id='drogas'>Drogas o fatiga</label><!-- drogas o fatiga-->
         <div class='circulo2' id="fallas" data-count="58">0</div>
-        <label class='conteiner3texto' id='fallas'>Fallas mecánicas</label><!-- fallas mecanicas-->
         <div class='circulo2' id="imprudenciac" data-count="1442">0</div>
-        <label class='conteiner3texto' id='imprudenciac'>imprudencia del conductor</label><!-- imprudencia conductor-->
         <div class='circulo2' id="imprudenciap" data-count="1482">0</div>
-        <label class='conteiner3texto' id='imprudenciap'>Imprudencia del peatón</label><!-- imprudencia peaton-->
-        <div class='circulo2' id="perdida" data-count="1226">0</div>
-        <label class='conteiner3texto' id='perdida'>Perdida del control del vehículo</label><!-- perdida del control del vehiculo-->
         <div class='circulo2' id="velocidad" data-count="534">0</div>
-        <label class='conteiner3texto' id='velocidad'>Velocidad imprudente</label><!-- velocidad imprudente-->
+        <div class='circulo4' id="perdida" data-count="1226">0</div>
+        <label class='container3texto'>Alcohol</label><!-- alcohol-->
+        <label class='container3texto'>Deficiencias viales</label><!-- deficiencias viales-->
+        <label class='container3texto'>Desobediencia a señalización</label><!-- desobediencia a señalizacion-->
+        <label class='container3texto'>Drogas o fatiga</label><!-- drogas o fatiga-->
+        <label class='container3texto'>Fallas mecánicas</label><!-- fallas mecanicas-->
+        <label class='container3texto'>Imprudencia del conductor</label><!-- imprudencia conductor-->
+        <label class='container3texto'>Imprudencia del peatón</label><!-- imprudencia peaton-->
+        <label class='container3texto'>Perdida del control del vehículo</label><!-- perdida del control del vehiculo-->
+        <label class='container3texto'>Velocidad imprudente</label><!-- velocidad imprudente-->
     </div>
     <div id='container'>
     	<div class='circulo5' id="total" data-count="6349">0</div>
-    	<label class='conteinertexto' id='total'>Total</label>
+    	<label class='containertexto' id='total'>Total</label>
     </div>
-    <label class='final' id='final'>El principal factor para un viaje seguro eres tú. Conduce con precaución.</label>
+    <label class='final' id='final'>
+      <div align="center">El principal factor para un viaje seguro eres tú. Conduce con precaución.</div>
+    </label>
+    <div align="center"><br>
+    </div>
+    <label class='final' id='final'>
+      <div align="center">Los datos mostrados son de bases de datos del Ministerio de Transporte y Telecomunicaciones.</div>
+    </label>
 
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src="js/index.js"></script>
+	<div align="center">
+	  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	  <script src="js/index.js"></script>
+</div>
 </body>
 </html>
