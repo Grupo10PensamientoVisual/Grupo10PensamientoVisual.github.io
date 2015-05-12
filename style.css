@@ -67,7 +67,6 @@ body{
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
-	font-family:sans-serif;
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -102,14 +101,22 @@ body{
 	font-size: 10px;
 	font-family:sans-serif;
 	display: inline-block;
-	margin-right: 60px;
+}
+.containertexto{
+	font-size:30px;
+	color:white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .final{
 	color:white;
 	font-family:sans-serif;
 	font-size:20px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 100px;
 }
 #hombre{
 	background-color: #6A0000;
@@ -155,4 +162,64 @@ body{
 }
 #perdida{
 		background-color: #4E7F16;
+}
+#a{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#b{
+	margin-right: 30px;
+	margin-left: 40px;
+}
+#c{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#d{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#e{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#f{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#g{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#h{
+	margin-right: 1px;
+	margin-left: 15px;
+}
+#i{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#h1{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#h2{
+	margin-right: 40px;
+	margin-left: 70px;
+}
+#h3{
+	margin-right: 40px;
+	margin-left: 70px;
+}
+#h4{
+	margin-right: 40px;
+	margin-left: 50px;
+}
+#H{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#M{
+	margin-right: 40px;
+	margin-left: 70px;
 }
