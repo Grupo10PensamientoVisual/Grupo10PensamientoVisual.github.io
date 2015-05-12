@@ -1,0 +1,225 @@
+@import "compass/css3";
+
+body{
+	background-color: black;
+	color: #ffffff;
+	display: table;
+}
+#container1{
+	display: inline;
+	margin-left: center;
+	text-align: center;
+}
+#container2{
+	display: inline;
+	margin-left: auto;
+	text-align: center;
+}
+#container3{
+	display: inline;
+}
+.circulo{
+	font-size:30px;
+	color:white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circulo2{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 100px;
+	display:inline-block;
+	margin-right: 3%;
+}
+.circulo3{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 100px;
+	display:inline-block;
+	margin-right: 3%;
+}
+.circulo4{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 100px;
+	display:inline-block;
+	margin-right: 3%;
+}
+.circulo5{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.titulo{
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.container1texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-left: 55px;
+}
+.container2texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-left: 60px;
+
+}
+.container3texto{
+	text-align: center;
+	color:white;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+}
+.containertexto{
+	font-size:30px;
+	color:white;
+	text-align: center;
+	font-family:sans-serif;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.final{
+	color:white;
+	font-family:sans-serif;
+	font-size:20px;
+	text-align: center;
+	margin-top: 100px;
+}
+#hombre{
+	background-color: #6A0000;
+}
+#mujer{
+	background-color: #6A0000;
+}
+#hora1{
+		background-color: #BFB52E;
+}
+#hora2{
+		background-color: #BFB52E;
+}
+#hora3{
+		background-color: #BFB52E;
+}
+#hora4{
+		background-color: #BFB52E;
+}
+#alcohol{
+	background-color: #4E7F16;
+}
+#deficiencias{
+		background-color: #4E7F16;
+}
+#desobediencia{
+		background-color: #4E7F16;
+}
+#drogas{
+		background-color: #4E7F16;
+}
+#fallas{
+		background-color: #4E7F16;
+}
+#imprudenciac{
+		background-color: #4E7F16;
+}
+#imprudenciap{
+		background-color: #4E7F16;
+}
+#velocidad{
+		background-color: #4E7F16;
+}
+#perdida{
+		background-color: #4E7F16;
+}
+#a{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#b{
+	margin-right: 30px;
+	margin-left: 40px;
+}
+#c{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#d{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#e{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#f{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#g{
+	margin-right: 30px;
+	margin-left: 10px;
+}
+#h{
+	margin-right: 1px;
+	margin-left: 15px;
+}
+#i{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#h1{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#h2{
+	margin-right: 40px;
+	margin-left: 70px;
+}
+#h3{
+	margin-right: 40px;
+	margin-left: 70px;
+}
+#h4{
+	margin-right: 40px;
+	margin-left: 50px;
+}
+#H{
+	margin-right: 40px;
+	margin-left: 25px;
+}
+#M{
+	margin-right: 40px;
+	margin-left: 70px;
+}
