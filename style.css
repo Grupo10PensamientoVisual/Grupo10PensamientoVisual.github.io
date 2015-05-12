@@ -301,8 +301,8 @@ body{
 }
 @keyframes myfirst {
   0%   {background-color:transparent; border-color:transparent;}
-  25%  {background-color:#80BF40; border-color:#80BF40;}
-  50%  {background-color:#64BF21; border-color:#64BF21;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#46BF01; border-color:#46BF01;}
   75%  {background-color:#46BF01; border-color:#46BF01;}
   100%  {background-color:#46BF01; border-color:#46BF01;}
 }
@@ -310,8 +310,8 @@ body{
 
 @-moz-keyframes myfirst /* Firefox */ {
   0%   {background-color:transparent; border-color:transparent;}
-  25%  {background-color:#80BF40; border-color:#80BF40;}
-  50%  {background-color:#64BF21; border-color:#64BF21;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#46BF01; border-color:#46BF01;}
   75%  {background-color:#46BF01; border-color:#46BF01;}
   100%  {background-color:#46BF01; border-color:#46BF01;}
 }
@@ -319,8 +319,8 @@ body{
 
 @-webkit-keyframes myfirst /* Safari and Chrome */ {
   0%   {background-color:transparent; border-color:transparent;}
-  25%  {background-color:#80BF40; border-color:#80BF40;}
-  50%  {background-color:#64BF21; border-color:#64BF21;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#46BF01; border-color:#46BF01;}
   75%  {background-color:#46BF01; border-color:#46BF01;}
   100%  {background-color:#46BF01; border-color:#46BF01;}
 }
@@ -328,16 +328,16 @@ body{
 
 @-o-keyframes myfirst /* Opera */ {
   0%   {background-color:transparent; border-color:transparent;}
-  25%  {background-color:#80BF40; border-color:#80BF40;}
-  50%  {background-color:#64BF21; border-color:#64BF21;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#46BF01; border-color:#46BF01;}
   75%  {background-color:#46BF01; border-color:#46BF01;}
   100%  {background-color:#46BF01; border-color:#46BF01;}
 }
 @keyframes myfirsta {
   0%   {background-color:transparent; border-color:transparent;}
   25%  {background-color:#46BF01; border-color:#46BF01;}
-  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
-  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#BFAB31; border-color:#BFAB31;}
   100%  {background-color:#BFAB31; border-color:#BFAB31;}
 }
 
@@ -345,8 +345,8 @@ body{
 @-moz-keyframes myfirsta /* Firefox */ {
   0%   {background-color:transparent; border-color:transparent;}
   25%  {background-color:#46BF01; border-color:#46BF01;}
-  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
-  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#BFAB31; border-color:#BFAB31;}
   100%  {background-color:#BFAB31; border-color:#BFAB31;}
 }
 
@@ -354,8 +354,8 @@ body{
 @-webkit-keyframes myfirsta /* Safari and Chrome */ {
   0%   {background-color:transparent; border-color:transparent;}
   25%  {background-color:#46BF01; border-color:#46BF01;}
-  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
-  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#BFAB31; border-color:#BFAB31;}
   100%  {background-color:#BFAB31; border-color:#BFAB31;}
 }
 
@@ -363,8 +363,8 @@ body{
 @-o-keyframes myfirsta /* Opera */ {
   0%   {background-color:transparent; border-color:transparent;}
   25%  {background-color:#46BF01; border-color:#46BF01;}
-  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
-  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#BFAB31; border-color:#BFAB31;}
   100%  {background-color:#BFAB31; border-color:#BFAB31;}
 }
 @keyframes myfirstb {
