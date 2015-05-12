@@ -31,18 +31,19 @@ body{
 .circulo2{
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 100%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
 	margin-top: 10%;
 	display:inline-block;
 	margin-right: 3%;
+
 }
 .circulo3{
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 100%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
@@ -53,7 +54,7 @@ body{
 .circulo4{
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 100%;
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
@@ -119,49 +120,124 @@ body{
 	margin-top: 100px;
 }
 #hombre{
-	background-color: #4EBF39;
+	animation:myfirstb 10s;
+  	-moz-animation:myfirstb 10s; /* Firefox */
+  	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
+  	-o-animation:myfirstb 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #AB0000;
 }
 #mujer{
-	background-color: #4EBF39;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #hora1{
-		background-color: #FC6B16;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #hora2{
-		background-color: #FC6B16;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #hora3{
-		background-color: #FC6B16;
+	animation:myfirsta 10s;
+  	-moz-animation:myfirsta 10s; /* Firefox */
+  	-webkit-animation:myfirsta 10s; /* Safari and Chrome */
+  	-o-animation:myfirsta 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #BFAB31;
 }
 #hora4{
-		background-color: #FC6B16;
+	animation:myfirstb 10s;
+  	-moz-animation:myfirstb 10s; /* Firefox */
+  	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
+  	-o-animation:myfirstb 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #AB0000;
 }
 #alcohol{
-	background-color: #227A73;
+	animation:myfirsta 10s;
+  	-moz-animation:myfirsta 10s; /* Firefox */
+  	-webkit-animation:myfirsta 10s; /* Safari and Chrome */
+  	-o-animation:myfirsta 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #BFAB31;
 }
 #deficiencias{
-		background-color: #227A73;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #desobediencia{
-		background-color: #227A73;
+	animation:myfirsta 10s;
+  	-moz-animation:myfirsta 10s; /* Firefox */
+  	-webkit-animation:myfirsta 10s; /* Safari and Chrome */
+  	-o-animation:myfirsta 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #BFAB31;
 }
 #drogas{
-		background-color: #227A73;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #fallas{
-		background-color: #227A73;
+	animation:myfirst 10s;
+  	-moz-animation:myfirst 10s; /* Firefox */
+  	-webkit-animation:myfirst 10s; /* Safari and Chrome */
+  	-o-animation:myfirst 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #46BF01;
 }
 #imprudenciac{
-		background-color: #227A73;
+	animation:myfirstb 10s;
+  	-moz-animation:myfirstb 10s; /* Firefox */
+  	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
+  	-o-animation:myfirstb 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #AB0000;
 }
 #imprudenciap{
-		background-color: #227A73;
+	animation:myfirstb 10s;
+  	-moz-animation:myfirstb 10s; /* Firefox */
+  	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
+  	-o-animation:myfirstb 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #AB0000;
 }
 #velocidad{
-		background-color: #227A73;
+	animation:myfirstb 10s;
+  	-moz-animation:myfirstb 10s; /* Firefox */
+  	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
+  	-o-animation:myfirstb 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #AB0000;
 }
 #perdida{
-		background-color: #227A73;
+	animation:myfirsta 10s;
+  	-moz-animation:myfirsta 10s; /* Firefox */
+  	-webkit-animation:myfirsta 10s; /* Safari and Chrome */
+  	-o-animation:myfirsta 10s; /* Opera */
+  	transition: all 10s ease;
+	background-color: #BFAB31;
 }
 #a{
 	margin-right: 40px;
@@ -222,4 +298,106 @@ body{
 #M{
 	margin-right: 40px;
 	margin-left: 70px;
+}
+@keyframes myfirst {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#80BF40; border-color:#80BF40;}
+  50%  {background-color:#64BF21; border-color:#64BF21;}
+  75%  {background-color:#46BF01; border-color:#46BF01;}
+  100%  {background-color:#46BF01; border-color:#46BF01;}
+}
+
+
+@-moz-keyframes myfirst /* Firefox */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#80BF40; border-color:#80BF40;}
+  50%  {background-color:#64BF21; border-color:#64BF21;}
+  75%  {background-color:#46BF01; border-color:#46BF01;}
+  100%  {background-color:#46BF01; border-color:#46BF01;}
+}
+
+
+@-webkit-keyframes myfirst /* Safari and Chrome */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#80BF40; border-color:#80BF40;}
+  50%  {background-color:#64BF21; border-color:#64BF21;}
+  75%  {background-color:#46BF01; border-color:#46BF01;}
+  100%  {background-color:#46BF01; border-color:#46BF01;}
+}
+
+
+@-o-keyframes myfirst /* Opera */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#80BF40; border-color:#80BF40;}
+  50%  {background-color:#64BF21; border-color:#64BF21;}
+  75%  {background-color:#46BF01; border-color:#46BF01;}
+  100%  {background-color:#46BF01; border-color:#46BF01;}
+}
+@keyframes myfirsta {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
+  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  100%  {background-color:#BFAB31; border-color:#BFAB31;}
+}
+
+
+@-moz-keyframes myfirsta /* Firefox */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
+  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  100%  {background-color:#BFAB31; border-color:#BFAB31;}
+}
+
+
+@-webkit-keyframes myfirsta /* Safari and Chrome */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
+  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  100%  {background-color:#BFAB31; border-color:#BFAB31;}
+}
+
+
+@-o-keyframes myfirsta /* Opera */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#7FBF1F; border-color:#7FBF1F;}
+  75%  {background-color:#B0BF26; border-color:#B0BF26;}
+  100%  {background-color:#BFAB31; border-color:#BFAB31;}
+}
+@keyframes myfirstb {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#FC6B16; border-color:#FC6B16;}
+  100%  {background-color:#AB0000; border-color:#AB0000;}
+}
+
+
+@-moz-keyframes myfirstb /* Firefox */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#FC6B16; border-color:#FC6B16;}
+  100%  {background-color:#AB0000; border-color:#AB0000;}
+}
+
+
+@-webkit-keyframes myfirstb /* Safari and Chrome */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#FC6B16; border-color:#FC6B16;}
+  100%  {background-color:#AB0000; border-color:#AB0000;}
+}
+
+
+@-o-keyframes myfirstb /* Opera */ {
+  0%   {background-color:transparent; border-color:transparent;}
+  25%  {background-color:#46BF01; border-color:#46BF01;}
+  50%  {background-color:#BFAB31; border-color:#BFAB31;}
+  75%  {background-color:#FC6B16; border-color:#FC6B16;}
+  100%  {background-color:#AB0000; border-color:#AB0000;}
 }
