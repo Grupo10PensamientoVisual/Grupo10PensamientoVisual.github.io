@@ -9,14 +9,17 @@ body{
 	display: inline;
 	margin-left: center;
 	text-align: center;
+	padding-left: 550px;
 }
 #container2{
 	display: inline;
 	margin-left: auto;
 	text-align: center;
+	padding-left: 410px;
 }
 #container3{
 	display: inline;
+	padding-left: 90px;
 }
 .circulo{
 	font-size:30px;
@@ -240,8 +243,7 @@ body{
 	background-color: #BFAB31;
 }
 #a{
-	margin-right: 40px;
-	margin-left: 25px;
+	padding-left: 110px;
 }
 #b{
 	margin-right: 30px;
@@ -272,12 +274,11 @@ body{
 	margin-left: 15px;
 }
 #i{
-	margin-right: 10px;
+	margin-right: 5px;
 	margin-left: 10px;
 }
 #h1{
-	margin-right: 40px;
-	margin-left: 25px;
+	padding-left: 400px;
 }
 #h2{
 	margin-right: 40px;
@@ -292,8 +293,7 @@ body{
 	margin-left: 50px;
 }
 #H{
-	margin-right: 40px;
-	margin-left: 25px;
+	padding-left: 550px;
 }
 #M{
 	margin-right: 40px;

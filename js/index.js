@@ -38,9 +38,16 @@ $('#hombre').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=15'}); //'width': '+=20'}); 
+      }
     },
+
     complete: function() {
       $this.text(this.countNum);
+      //var h= $this.css('height');
+      //var w= $this.css('width');
+      //$this.css('height': h, 'width': w});
       //alert('finished');
     }
 
@@ -63,6 +70,9 @@ $('#mujer').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'}); //'width': '+=20'}); 
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -88,6 +98,9 @@ $('#hora1').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -113,6 +126,9 @@ $('#hora2').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -138,6 +154,9 @@ $('#hora3').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=10'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -163,6 +182,9 @@ $('#hora4').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=15'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -188,6 +210,9 @@ $('#alcohol').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=10'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -213,6 +238,9 @@ $('#deficiencias').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -238,6 +266,9 @@ $('#desobediencia').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=10'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -263,6 +294,9 @@ $('#drogas').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -288,6 +322,9 @@ $('#fallas').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -313,6 +350,9 @@ $('#imprudenciac').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=15'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -338,6 +378,9 @@ $('#imprudenciap').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=15'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -363,6 +406,9 @@ $('#perdida').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=10'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -388,6 +434,9 @@ $('#velocidad').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=15'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
@@ -413,6 +462,9 @@ $('#total').each(function() {
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
+      if(this.countNum & 1){
+       $this.css({'font-size': '+=5'});
+      }
     },
     complete: function() {
       $this.text(this.countNum);
