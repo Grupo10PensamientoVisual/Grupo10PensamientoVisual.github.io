@@ -223,7 +223,7 @@ body{
   	transition: all 10s ease;
 	background-color: #AB0000;
 }
-#velocidad{
+#perdida{
 	animation:myfirstb 10s;
   	-moz-animation:myfirstb 10s; /* Firefox */
   	-webkit-animation:myfirstb 10s; /* Safari and Chrome */
@@ -231,7 +231,7 @@ body{
   	transition: all 10s ease;
 	background-color: #AB0000;
 }
-#perdida{
+#velocidad{
 	animation:myfirsta 10s;
   	-moz-animation:myfirsta 10s; /* Firefox */
   	-webkit-animation:myfirsta 10s; /* Safari and Chrome */
