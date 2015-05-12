@@ -119,7 +119,8 @@ body{
 	margin-top: 100px;
 }
 #hombre{
-	background-color: #6A0000;
+	-webkit-animation-name: cambio_color;
+  	-webkit-animation-duration: 10s;
 }
 #mujer{
 	background-color: #6A0000;
@@ -163,6 +164,7 @@ body{
 #perdida{
 		background-color: #4E7F16;
 }
+<<<<<<< HEAD
 #a{
 	margin-right: 40px;
 	margin-left: 25px;
@@ -223,3 +225,10 @@ body{
 	margin-right: 40px;
 	margin-left: 70px;
 }
+=======
+@-webkit-keyframe cambio_color{
+	0% { background-color: #4E7F16; }
+	50% { background-color:#BFB52E; }
+	100% { background-color:#6A0000; }
+}
+>>>>>>> origin/master
