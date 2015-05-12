@@ -35,7 +35,7 @@ body{
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
-	margin-top: 100px;
+	margin-top: 10%;
 	display:inline-block;
 	margin-right: 3%;
 }
@@ -46,7 +46,7 @@ body{
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
-	margin-top: 100px;
+	margin-top: 50px;
 	display:inline-block;
 	margin-right: 3%;
 }
@@ -57,7 +57,7 @@ body{
 	line-height: 100px;
 	text-align: center;
 	font-family:sans-serif;
-	margin-top: 100px;
+	margin-top: 50px;
 	display:inline-block;
 	margin-right: 3%;
 }
@@ -67,7 +67,7 @@ body{
 	border-radius: 50%;
 	line-height: 100px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -119,49 +119,49 @@ body{
 	margin-top: 100px;
 }
 #hombre{
-	background-color: #6A0000;
+	background-color: #4EBF39;
 }
 #mujer{
-	background-color: #6A0000;
+	background-color: #4EBF39;
 }
 #hora1{
-		background-color: #BFB52E;
+		background-color: #FC6B16;
 }
 #hora2{
-		background-color: #BFB52E;
+		background-color: #FC6B16;
 }
 #hora3{
-		background-color: #BFB52E;
+		background-color: #FC6B16;
 }
 #hora4{
-		background-color: #BFB52E;
+		background-color: #FC6B16;
 }
 #alcohol{
-	background-color: #4E7F16;
+	background-color: #227A73;
 }
 #deficiencias{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #desobediencia{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #drogas{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #fallas{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #imprudenciac{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #imprudenciap{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #velocidad{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #perdida{
-		background-color: #4E7F16;
+		background-color: #227A73;
 }
 #a{
 	margin-right: 40px;
