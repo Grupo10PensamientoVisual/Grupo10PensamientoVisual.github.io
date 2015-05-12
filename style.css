@@ -112,8 +112,8 @@ body{
 	margin-top: 20px;
 }
 #hombre{
-	animation-name: cambio_color;
-  	animation-duration: 10s;
+	-webkit-animation-name: cambio_color;
+  	-webkit-animation-duration: 10s;
 }
 #mujer{
 	background-color: #6A0000;
@@ -157,7 +157,7 @@ body{
 #perdida{
 		background-color: #4E7F16;
 }
-@keyframe cambio_color{
+@-webkit-keyframe cambio_color{
 	0% { background-color: #4E7F16; }
 	50% { background-color:#BFB52E; }
 	100% { background-color:#6A0000; }
